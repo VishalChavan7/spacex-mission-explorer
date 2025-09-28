@@ -28,6 +28,5 @@ export async function fetchRocketsMap() {
 }
 
 export async function fetchLaunches() {
-  const latest = await getJSON(`${API}/launches/latest`);
-  return Array.isArray(latest) ? latest : [latest];
+  return await getJSON(`${API}/launches`);
 }

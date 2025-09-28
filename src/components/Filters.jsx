@@ -35,7 +35,7 @@ export default function Filters({
         <Toggle
           checked={successOnly}
           onChange={(v) => setSuccessOnly(v)}
-          label="Successful only"
+          label="Success Only"
         />
       </div>
     </div>

@@ -40,7 +40,7 @@ function LaunchCard({ launch, rocketName, onOpen }) {
       </div>
       <div className="chips">
         <button className="btn" onClick={() => onOpen(launch)}>
-          View details
+          View Details
         </button>
       </div>
     </article>
