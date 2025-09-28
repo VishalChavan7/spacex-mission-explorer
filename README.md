@@ -153,4 +153,3 @@ The app uses the SpaceX API v4:
 - Manual theme toggle
 - Persistent theme preference in localStorage
 - CSS variables for consistent color schemes
-# spacex-mission-explorer
