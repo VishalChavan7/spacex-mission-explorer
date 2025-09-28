@@ -133,7 +133,7 @@ src/
 
 The app uses the SpaceX API v4:
 
-- **Launches Endpoint**: `https://api.spacexdata.com/v4/launches/latest`
+- **Launches Endpoint**: `https://api.spacexdata.com/v4/launches`
 - **Rockets Endpoint**: `https://api.spacexdata.com/v4/rockets`
 - **Timeout**: 10 seconds per request
 - **Error Handling**: Network errors, timeouts, and HTTP errors are handled gracefully
